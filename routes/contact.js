@@ -15,13 +15,13 @@ router.post("/api/contact", (req, res) => {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user:'walq286@gmail.com', // 
-      pass:'26030022aA$$' , // 
+      user:'testovtestov22@gmail.com', // 
+      pass:'testing%%123' , // 
     },
   });
   const info = await transporter.sendMail({
     from: req.body.email, // sender address
-    to: "walq286@gmail.com", // list of receivers
+    to: "aleksander.minchev18@gmail.com", // list of receivers
     replyTo:req.body.email,
     subject:req.body.subject, // Subject line
     text:"Email sent from:"+req.body.email+' /n Name: '+req.body.name+'/n Message: '+req.body.message+' ', // plain text body

@@ -26,6 +26,7 @@ const frontpage = fs.readFileSync(__dirname + "/public/frontpage/frontpage.html"
 const projects = fs.readFileSync(__dirname + "/public/projects/projects.html", "utf-8");
 const contact = fs.readFileSync(__dirname + "/public/contact/contact.html", "utf-8");
 const resume = fs.readFileSync(__dirname+"/public/resume/resume.html","utf-8");
+const confirmation=fs.readFileSync(__dirname+"/public/confirmation/confirmation.html","utf-8");
 
 app.get("/", (req, res) => {
     res.send(nav + frontpage + footer);
@@ -44,5 +45,8 @@ app.get("/resume",(req,res)=>{
     res.send(nav+resume+footer);
 });
 
+app.get("/confirmation",(req,res)=>{
+    res.send(nav+confirmation+footer);
+});
 
 

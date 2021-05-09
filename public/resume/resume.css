@@ -1,0 +1,20 @@
+h2{
+
+    margin-left: 15%;
+
+}
+.line{
+    border-top: 10px double rgb(99, 9, 43);
+    width: 90%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.line1{
+    border-top: 10px solid rgb(99, 9, 43);
+    width: 90%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.workTime{
+    color: rgb(255, 164, 164);
+}
