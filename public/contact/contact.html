@@ -1,0 +1,30 @@
+
+<div class="container">
+<div id="contact-info">
+    <h1>Contact me here</h1>
+    
+    <p id="info">Telephone:<span  class="tel-email"> +4591105783</span>                                            
+    <br> Email:<span  class="tel-email"> aleksander.minchev18@gmail.com</span></p>
+</div>
+
+<form class="form"method="POST" action="/api/contact">
+    <label>Name </label>
+    <input  class="contact-form" type="text" name="name" placeholder="Your Name..." >
+    <br>
+    <label>Email </label>
+    <input   class="contact-form"type="email" name="email" placeholder="Your Email...">
+    <br>
+    <label for="subject">Subject </label>
+    <input class="contact-form"  type="subject" name="subject" placeholder="Your Subject..."   ">
+    <br>
+    
+    <br>
+    <label for="message"> Message</label>
+    <textarea  class="contact-form"   type="text" name="message" placeholder="Your Message...." rows="10" cols="100"></textarea>
+    <br>
+    
+    <button class="contact-form" type="submit">Contact Me</button>
+</form>
+</div>
+<script src="./contact.js">
+</script>

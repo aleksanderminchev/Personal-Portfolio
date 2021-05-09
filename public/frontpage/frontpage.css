@@ -1,0 +1,28 @@
+#main-content{
+    text-align:left;
+    margin-top: 4%;
+    margin-left: 9%;
+    margin-right: 9%;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+img{
+    align-self: center;
+    width: auto;
+    height: 500px;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
+.change{
+    font-size: 26px;
+    margin-left: 20%;
+    text-align: justify;
+    width: 700px;
+}

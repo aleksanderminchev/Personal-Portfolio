@@ -1,0 +1,25 @@
+#logo {
+    
+        height: auto;
+        width: auto;
+        max-height: 72px;
+        max-width: 250px;
+}
+.nav{
+    text-align:center;
+    font-size: 20px;
+}
+.navlink{
+    padding: 23px;
+}
+
+#main-content {
+    min-height: calc(100vh - 125px);
+}
+
+body{
+    color: rgba(189, 218, 145, 0.89);
+    background-color: rgb(58, 57, 57);
+    background-image: url("../frontpage/sea.png");
+    background-size:cover;
+}
